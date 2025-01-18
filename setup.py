@@ -7,7 +7,7 @@ from cx_Freeze import Executable, setup
 setup(
     name="voice-translator",
     version="v2.0.1",
-    description="Real-Time Voice Translator GUI",
+    description="Real-Time Voice Translator By Ajitesh Vishwakarma GUI",
     executables=[Executable("main.py", icon="icon.ico", target_name="voice-translator.exe")],
     options={
         "build_exe": {
